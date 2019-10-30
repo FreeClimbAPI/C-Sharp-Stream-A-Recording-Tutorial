@@ -11,7 +11,7 @@ namespace StreamRecording
       try
       {
         string FreeClimbAccountId = System.Environment.GetEnvironmentVariable("ACCOUNT_ID");
-        string PersephonyAccountToken = System.Environment.GetEnvironmentVariable("AUTH_TOKEN");
+        string FreeClimbAccountToken = System.Environment.GetEnvironmentVariable("AUTH_TOKEN");
         string RecordingId = "";
 
         // Create FreeClimbClient object

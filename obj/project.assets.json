@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "freeclimb-cs-sdk/1.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/net45/freeclimb-cs-sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net45/freeclimb-cs-sdk.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.0.1": {
         "type": "package",
         "dependencies": {
@@ -266,18 +278,6 @@
         },
         "runtime": {
           "lib/netstandard1.0/Newtonsoft.Json.dll": {}
-        }
-      },
-      "persy-cs-sdk/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "9.0.1"
-        },
-        "compile": {
-          "lib/net45/persy-cs-sdk.dll": {}
-        },
-        "runtime": {
-          "lib/net45/persy-cs-sdk.dll": {}
         }
       },
       "System.Collections/4.0.11": {
@@ -747,6 +747,18 @@
     }
   },
   "libraries": {
+    "freeclimb-cs-sdk/1.0.0.1": {
+      "sha512": "T68O/d2ytkG1WCYw5LWRhIXEVrJKxYedssy+A0G6Q9fvuJ72YBK96QX6Qq8jdJ8oGYThuMfSVRtmR4BGf1Mr7A==",
+      "type": "package",
+      "path": "freeclimb-cs-sdk/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "freeclimb-cs-sdk.1.0.0.1.nupkg.sha512",
+        "freeclimb-cs-sdk.nuspec",
+        "lib/net45/freeclimb-cs-sdk.dll"
+      ]
+    },
     "Microsoft.CSharp/4.0.1": {
       "sha512": "17h8b5mXa87XYKrrVqdgZ38JefSUqLChUQpXgSnpzsM0nDOhE40FTeNWOJ/YmySGV6tG6T8+hjz6vxbknHJr6A==",
       "type": "package",
@@ -1297,18 +1309,6 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
-      ]
-    },
-    "persy-cs-sdk/1.0.0": {
-      "sha512": "2CGDxYejKgZhl2pfNS4MQ6ZlXXO5T+6kRz7rwQRv6WBTYSPEnUqVz2JOKe4htypKAGKIUjK2fMJVcRalHyCLlw==",
-      "type": "package",
-      "path": "persy-cs-sdk/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/persy-cs-sdk.dll",
-        "persy-cs-sdk.1.0.0.nupkg.sha512",
-        "persy-cs-sdk.nuspec"
       ]
     },
     "System.Collections/4.0.11": {
@@ -3292,7 +3292,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
-      "persy-cs-sdk >= 1.0.0"
+      "freeclimb-cs-sdk >= 1.0.0.1"
     ]
   },
   "packageFolders": {
@@ -3340,16 +3340,22 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "persy-cs-sdk": {
+          "freeclimb-cs-sdk": {
             "target": "Package",
-            "version": "[1.0.0, )"
+            "version": "[1.0.0.1, )"
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3358,8 +3364,8 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'persy-cs-sdk 1.0.0' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
-      "libraryId": "persy-cs-sdk",
+      "message": "Package 'freeclimb-cs-sdk 1.0.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
+      "libraryId": "freeclimb-cs-sdk",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.2"
       ]
