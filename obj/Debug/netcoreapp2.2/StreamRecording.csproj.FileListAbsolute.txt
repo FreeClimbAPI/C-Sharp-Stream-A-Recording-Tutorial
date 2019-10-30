@@ -1,0 +1,11 @@
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/bin/Debug/netcoreapp2.2/StreamRecording.deps.json
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/bin/Debug/netcoreapp2.2/StreamRecording.runtimeconfig.json
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/bin/Debug/netcoreapp2.2/StreamRecording.runtimeconfig.dev.json
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/bin/Debug/netcoreapp2.2/StreamRecording.dll
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/bin/Debug/netcoreapp2.2/StreamRecording.pdb
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.csprojAssemblyReference.cache
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.csproj.CoreCompileInputs.cache
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.AssemblyInfoInputs.cache
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.AssemblyInfo.cs
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.dll
+/Users/gmiller/Workspaces/Vail/Persy/Tutorials/StreamRecording/obj/Debug/netcoreapp2.2/StreamRecording.pdb
